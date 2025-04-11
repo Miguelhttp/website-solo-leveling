@@ -20,20 +20,13 @@
       <h1>Solo leveling</h1>
       <button class="menu-toggle" aria-label="Abrir menu">
         &#9776;
-      </button><script>
-        const toggleBtn = document.querySelector(".menu-toggle");
-        const nav = document.querySelector("header nav");
-      
-        toggleBtn.addEventListener("click", () => {
-          nav.classList.toggle("open");
-        });
-      </script>
+      </button>
 
       <nav>
         <ul>
           <li><a href="#">Inicio</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#">Características</a></li>
+          <li><a href="#galeria">Galeria</a></li>
         </ul>
       </nav>
     </header>
@@ -75,7 +68,7 @@
         </div>
       </section>
 
-      <section class="galeria">
+      <section class="galeria" id="galeria">
         <h2>Galeria</h2>
         <div class="content-galeria">
           <img src="./src/image/image-1.png" alt="Imagem da galeria" />
