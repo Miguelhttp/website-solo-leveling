@@ -1,0 +1,43 @@
+/* === Reset & Base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+/* === Variáveis Globais === */
+:root {
+  --bg-black: #121214;
+  --text-dark: #29292E;
+  --text-white: #E1E1E6;
+  --text-muted: #7C7C8A;
+
+  --font-base: "Roboto", sans-serif;
+  --font-heading: "UnifrakturCook", cursive;
+
+  --color-gradient-100: #13161B;
+  --color-gradient-200: #9AF1EB;
+}
+
+html {
+  color-scheme: dark light;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-base);
+  width: 100%;
+  min-height: 100dvh;
+  min-height: 100vh;
+  background-color: var(--text-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
