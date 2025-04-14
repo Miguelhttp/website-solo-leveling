@@ -170,7 +170,7 @@ main .sobre .genres li {
 
 main .sobre .genres li:hover {
   border: none;
-  background-color: #60519b;
+  background-color: oklch(54.1% 0.281 293.009);
   color: var(--text-white);
 }
 
