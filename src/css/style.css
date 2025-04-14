@@ -145,7 +145,7 @@ main .sobre .content-sobre h2 {
   font-size: 2.5rem;
   font-family: var(--font-heading);
   font-weight: 700;
-  color: var(--text-dark);
+  color: var(--text-white);
   margin-bottom: 8px;
 }
 
@@ -158,7 +158,7 @@ main .sobre .genres {
 
 main .sobre .genres li {
   border: 1px solid var(--text-dark);
-  color: #333;
+  color: var(--text-white);
   font-size: 0.75rem;
   padding: 0.4rem 0.75rem;
   border-radius: 999px;
@@ -176,8 +176,8 @@ main .sobre .genres li:hover {
 
 main .sobre .content-sobre p {
   font-size: 14px;
-  font-weight: 600;
-  color: var(--text-dark);
+  font-weight: 400;
+  color: var(--text-white);
 }
 
 /* === Galeria === */
