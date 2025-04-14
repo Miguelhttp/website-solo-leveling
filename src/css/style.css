@@ -266,6 +266,11 @@ footer .footer-links a:hover {
     text-align: center;
   }
 
+  main .sobre img {
+    width: 100%;
+    max-width: 250px;
+  }
+
   main .sobre > .content-sobre {
     padding: 2rem 1rem;
   }
@@ -326,7 +331,7 @@ footer .footer-links a:hover {
 
   main .sobre img {
     width: 100%;
-    max-width: 300px;
+    max-width: 180px;
     margin-bottom: 1rem;
   }
 
